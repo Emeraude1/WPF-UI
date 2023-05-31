@@ -1,0 +1,33 @@
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\UI design.exe.config
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\UI design.exe
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\UI design.pdb
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\MaterialDesignColors.dll
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Emeraude\Desktop\UI design\UI design\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design.csproj.AssemblyReference.cache
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design.csproj.SuggestedBindingRedirects.cache
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\App.g.cs
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design_MarkupCompile.cache
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design_MarkupCompile.lref
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\App.baml
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design.g.resources
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI_design.Properties.Resources.resources
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design.csproj.GenerateResource.cache
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design.csproj.CoreCompileInputs.cache
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design.csproj.CopyComplete
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design.exe
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\UI design.pdb
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\View\UCs\BindablePassword.g.cs
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\View\UCs\UC_Login.g.cs
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\View\UCs\UC_APropos.g.cs
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\View\UCs\BindablePassword.baml
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\View\UCs\UC_APropos.baml
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\View\UCs\UC_Login.baml
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\View\Forms\LoginForm.g.cs
+C:\Users\Emeraude\Desktop\UI design\UI design\obj\Debug\View\Forms\LoginForm.baml

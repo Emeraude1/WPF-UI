@@ -1,0 +1,214 @@
+﻿<UserControl x:Class="UI_design.View.UCs.UC_APropos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI_design.View.UCs"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel Margin="10">
+
+            <Expander Background="Transparent"
+                  Foreground="Black"
+                    Header="Breve Description de l'Application" FontFamily="arial black" Height="90">
+                <ScrollViewer HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+
+                    <StackPanel
+                      Orientation="Vertical"
+                      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                      >
+                        <TextBlock Text="Explication" Foreground="Black"
+                                    Margin="20,0,20,0"/>
+                        <TextBlock Foreground="Black" 
+                                   FontFamily="sans-serif" FontStyle="Italic"
+                                   Margin="20,0,0,0"
+                                   Opacity=".68" 
+                                   TextWrapping="Wrap">
+                                   Notre application de supermarché constitue la solution idéale pour vous et vos clients.
+                                   <LineBreak/>
+                                   En effet, les clients cherchent à faire leurs courses facilement, rapidement et en toute sécurité, tandis que vous devez pouvoir collecter et visualiser facilement des données sur eux, vos ventes, vos vendeurs et vos utilisateurs.
+                                   <LineBreak/>
+                                   Grâce à notre plateforme de bureau, vous pouvez gérer des milliers de produits, créer des listes de ventes personnalisées, enregistrer vos commandes et visualiser le stock restant.
+                                   <LineBreak/>
+                                   Nous vous offrons une expérience de shopping pratique et agréable, avec des fonctionnalités innovantes pour faciliter votre vie au quotidien.
+
+                        </TextBlock>
+                    </StackPanel>
+                </ScrollViewer>
+
+            </Expander>
+
+            <Expander Background="Transparent"
+                  Foreground="Black"
+                    Header="Fonctionnalités principales de l'application et conditions générales d'utilisation." FontFamily="arial black" Height="90">
+                <ScrollViewer HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+
+                    <StackPanel
+                      Orientation="Vertical"
+                      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                      >
+                        <TextBlock Text="Etapes a suivre" 
+                                   Foreground="Black"
+                                   Margin="20,0,20,0"/>
+                        <TextBlock Foreground="Black" 
+                                   FontFamily="sans-serif" 
+                                   Margin="20,0,0,0"
+                                   FontStyle="Italic"
+                                   Opacity=".68" TextWrapping="Wrap">
+                                   1. Connectez-vous au compte de l'administrateur par défaut. Une fois connecté, vous pouvez modifier ce compte et mettre les informations qui vous conviennent. Vous pouvez également créer d'autres utilisateurs en tant qu'administrateur et leur attribuer un rôle (par exemple, admin pour effectuer les mêmes tâches que vous).
+                                     <LineBreak/>
+                                     <LineBreak/>
+                                   2. Une fois connecté, allez dans 'Entreprise'. Insérez le nom de l'entreprise, l'adresse, le premier numéro de téléphone, le deuxième numéro de téléphone, l'ordre de sortie, validez le format de facture A4, choisissez le logo et enfin enregistrez.
+                                     <LineBreak/>
+                                     <LineBreak/>
+                                   3. Allez dans 'Echanges', puis 'Monnaies'. Cliquez sur 'Ajouter une monnaie' en haut à droite, ajoutez un symbole (par exemple, USD pour dollars), la dénomination de la monnaie, validez si c'est la monnaie de référence pour indiquer si cette monnaie est votre monnaie d'échange, puis enregistrez.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                   4. Toujours dans 'Echanges', allez cette fois dans 'Taux' et ajoutez le taux par rapport à une monnaie. Si elle existe déjà, vous pouvez la modifier selon le taux du jour.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                   5. Allez dans 'Autres', puis 'Fournisseurs'. Cliquez sur 'Ajouter un fournisseur', mettez le code de ce fournisseur (par exemple, 1234 pour le reconnaître au cas où vous oubliez sa désignation), mettez sa désignation, son numéro de téléphone et son adresse, puis enregistrez.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                   6. Toujours dans 'Autres', allez cette fois-ci dans 'Unité de mesure'. Ajoutez l'unité de mesure de vos articles, puis enregistrez.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                   7. Allez dans 'Articles', puis 'Catégories' pour ajouter les catégories de vos articles (par exemple, 'Bébés et enfants' pour des catégories d'articles pour enfants) et ensuite enregistrez. Vous pouvez les modifier en allant sur le bouton orange avec l'icône d'un crayon et également les supprimer avec le bouton rouge avec l'icône d'un panier de poubelle.
+                                    <LineBreak/>
+                                    Vous pouvez toujours les Modifiers en allant sur le bouton Orange avec l!icon d'un crayon et egalement le supprimer avec le boutton rouge avec l'icon d'un panier de poubelle.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                   8. Toujours dans 'Articles', allez dans 'Articles' pour ajouter les articles de votre magasin. Sélectionnez une des catégories existantes, la désignation de l'article, sélectionnez une des unités de mesure existantes, le code, cliquez sur 'Choisir une image' et puis enregistrez.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                   9. Allez dans 'Commande' => 'Commande' pour faire entrer les stocks des articles. Commencez par insérer le bon de commande que vous avez pris chez votre fournisseur, sélectionnez le fournisseur qui a effectué la commande (s'il n'existe pas, vous pouvez le créer - référence n°5)
+                                    <LineBreak/>la monnaie avec lequel vous avez effectué la commande,Les articles,Le lot dans lequel ils doivent Stockés,La quantité, le Prix unitaire d'achat, le prix unitaire des ventes,et en fin la date d'expiration.
+                                    <LineBreak/>
+                                    Cliquez sur 'Ajouter dans le panier' pour ajouter les articles un par un. N'oubliez pas de valider une fois que vous avez terminé vos opérations.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                  10. En fin de compte, pour effectuer une vente, cliquez sur "Vente". Choisissez le client auquel vous souhaitez vendre les articles. Si le client n'existe pas, vous pouvez l'ajouter en cliquant sur le bouton "Nouveau client". Ensuite,                                     <LineBreak/>
+                                   <LineBreak/>écrivez le type de paiement et la monnaie dans laquelle l'achat est effectué. Sélectionnez l'article dans la section "Produits", choisissez son lot, entrez la quantité, puis cliquez sur "Ajouter au panier" et enfin "Valider" lorsque vous avez terminé l'opération.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    11. Si vous souhaitez modifier votre profil, vous pouvez cliquer sur votre nom dans la barre déroulante située à droite.
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    N.B: Pour visualiser certains rapports de vos données, vous devrez entrer la date à laquelle vous souhaitez que le rapport commence, ainsi que la date à laquelle il doit se terminer.</TextBlock>
+
+                    </StackPanel>
+                </ScrollViewer>
+
+            </Expander>
+
+            <Expander Background="Transparent"
+                  Foreground="Black"
+                    Header="Information sur les confidentialités" FontFamily="arial black" Height="90">
+                <ScrollViewer HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+
+                    <StackPanel
+                      Orientation="Vertical"
+                      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                      >
+                        <TextBlock Text="Vos informations" Foreground="Black"
+                                    Margin="20,0,20,0"/>
+                        <TextBlock Foreground="Black" 
+                                   FontFamily="sans-serif" FontStyle="Italic"
+                                   Margin="20,0,0,0"
+                                   Opacity=".68" 
+                                   TextWrapping="Wrap">
+                                   Toutes les informations, qu'il s'agisse de données personnelles ou de celles de vos clients, sont entièrement sécurisées. Elles sont cryptées et ne peuvent être déchiffrées, garantissant ainsi une sécurité totale.
+                                    <LineBreak/>L'application gère les données en utilisant un serveur local installé sur votre machine ou un serveur de travail. Cela signifie que vos données ne sont jamais transférées ni hébergées sur Internet, ce qui ajoute une couche supplémentaire de protection et de confidentialité.
+                                    <LineBreak/>En résumé, l'application offre une sécurité de bout en bout pour toutes les données, garantissant que les informations personnelles et confidentielles sont protégées à tout moment, que ce soit lors de leur stockage ou de leur traitement.
+
+
+                        </TextBlock>
+                    </StackPanel>
+                </ScrollViewer>
+
+            </Expander>
+
+            <Expander Background="Transparent"
+                  Foreground="Black"
+                    Header="Credits et contacts" FontFamily="arial black" Height="90">
+                <ScrollViewer HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+
+                    <StackPanel
+                      Orientation="Vertical"
+                      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                      >
+                        <TextBlock Text="Ouils de developpement de l'Application" Foreground="Black"
+                                    Margin="20,0,20,0"/>
+                        <TextBlock Foreground="Black" 
+                                   FontFamily="sans-serif" FontStyle="Italic"
+                                   Margin="20,0,0,0"
+                                   Opacity=".68" 
+                                   TextWrapping="Wrap">
+                                   L'application a été développée en utilisant WPF (Windows Presentation Forms) avec le pattern MVVM (Model View ViewModel), en utilisant les langages C# et XAML.
+                                   <LineBreak/> Les données sont gérées à partir de SQL Server 2019 en utilisant le langage de requête SQL, et la modélisation des données a été effectuée par M. Carlos.
+                                    <LineBreak/><LineBreak/>Plusieurs bibliothèques et frameworks ont été utilisés, notamment:
+                                    <LineBreak/>-EF6(Entity Framework 6)
+                                    <LineBreak/>-Prism Command
+                                    <LineBreak/>-Material Design
+                                    <LineBreak/>-Microsoft.ReportViewer.WinForms
+                                    <LineBreak/>-Microsoft.ReportViewer.Common
+                                    <LineBreak/><LineBreak/>Pour la création de rapports, l'extension Microsoft Report RDLC a été utilisée.
+                                    <LineBreak/><LineBreak/>En somme, l'application est une solution complète et bien construite qui utilise les dernières technologies pour fournir une expérience utilisateur agréable et efficace.
+
+                        </TextBlock>
+
+                        <TextBlock Text="Contacts" Foreground="White"
+                                        Margin="20,0,20,0"/>
+                        <TextBlock Foreground="Black" 
+                                       FontFamily="sans-serif" FontStyle="Italic"
+                                       Margin="20,0,0,0"
+                                       Opacity=".68" 
+                                       TextWrapping="Wrap">
+                                       Application programmé et developpé par L'ingenieur informatique Emeraude Makola Maluka Etudiant de l'université FIU(Final international University) de La Republique Turque Chypre du nord.
+                                       
+                                       <LineBreak/><LineBreak/>Pour plus d'info essayez de nous contactez sur/au:
+                                        <LineBreak/>Telephones: +90 539 107 41 88 , +243 89 30 31 784
+                                        <LineBreak/>Emails: emeraude.makola@final.edu.tr , makolaemeraude@gmail.com
+                                        <LineBreak/>Instagram: makola_emeraude
+                                        <LineBreak/>Adresse: Kinshasa, C/Kintambo ,Q/Kilimani avenue Kwamouth 64.
+
+
+                        </TextBlock>
+                    </StackPanel>
+                </ScrollViewer>
+
+            </Expander>
+
+            <Expander Background="Transparent"
+                  Foreground="Black"
+                    Header="Remerciements:" FontFamily="arial black" Height="90">
+                <ScrollViewer HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+
+                    <StackPanel
+                      Orientation="Vertical"
+                      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                      >
+                        <TextBlock Text="Nos Remerciements" Foreground="Black"
+                                    Margin="20,0,20,0"/>
+                        <TextBlock Foreground="Black" 
+                                   FontFamily="sans-serif" FontStyle="Italic"
+                                   Margin="20,0,0,0"
+                                   Opacity=".68" 
+                                   TextWrapping="Wrap">
+                                   Cher(e) Utilisateurs ,<LineBreak/><LineBreak/>Je voulais simplement prendre un moment pour vous remercier de l'utilisation de notre application de supermarché. Nous sommes ravis que vous trouviez notre application utile pour vos courses et espérons que vous continuez à l'utiliser pour simplifier votre expérience d'achat.
+                                    ,<LineBreak/><LineBreak/>Nous apprécions votre fidélité et votre soutien, car cela nous aide à améliorer constamment notre application pour répondre à vos besoins et rendre votre expérience de shopping encore meilleure.
+                                    <LineBreak/><LineBreak/>N'hésitez pas à nous faire part de vos commentaires, de vos suggestions ou de toute autre question que vous pourriez avoir. Nous sommes toujours à l'écoute et cherchons à améliorer notre application de supermarché pour vous offrir la meilleure expérience possible.
+                                    <LineBreak/><LineBreak/>Encore une fois, merci beaucoup pour votre confiance et votre soutien continu.
+                                    <LineBreak/><LineBreak/>Cordialement,
+                                    <LineBreak/>Emeraude Makola/ Emeraude Makola 2023 development
+
+                        </TextBlock>
+                    </StackPanel>
+                </ScrollViewer>
+
+            </Expander>
+
+        </StackPanel>
+    </Grid>
+</UserControl>
